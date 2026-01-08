@@ -22,9 +22,9 @@ def calculate_everything():
         else:
             discount = 0
             
-        # Problem : Side Effects 
-        #(Modifying variables outside the loop)
-        total += (price + tax - discount)
+    # Problem : Side Effects 
+    #(Modifying variables outside the loop)
+    total += (price + tax - discount)
 
     # Problem 5: Lack of Flexibility 
     #(What if we add shipping?)
