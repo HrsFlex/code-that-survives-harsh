@@ -2,7 +2,7 @@ class User:
     def __init__(self, is_authenticated):
         self.is_authenticated = is_authenticated
 
-# # its like a gift we are wrapping something do for more than 2 times
+# its like a gift we are wrapping something do for more than 2 times
 
 def logger_decorator(func):
     def wrapper(*args, **kwargs):
